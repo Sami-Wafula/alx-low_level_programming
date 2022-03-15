@@ -5,7 +5,7 @@
  *
  * Return: Always zero.
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int print = 0;
 	char x = 'a';
