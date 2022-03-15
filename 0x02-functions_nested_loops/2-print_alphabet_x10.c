@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - print (a-x)x10
+ * print_alphabet_x10 - print (a-x)x10
  *
  * Return: Always zero.
  */
