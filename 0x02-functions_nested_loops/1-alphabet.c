@@ -1,6 +1,6 @@
 #include "main.h"
-
-int main(void)
+/*print alphabet*/
+void print_alphabet(void)
 {
 	char x = 'a';
 
