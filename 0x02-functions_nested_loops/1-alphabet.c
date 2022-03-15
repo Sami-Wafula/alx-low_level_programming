@@ -1,5 +1,5 @@
 #include "main.h"
-/*print alphabet*/
+
 void print_alphabet(void)
 {
 	char x = 'a';
