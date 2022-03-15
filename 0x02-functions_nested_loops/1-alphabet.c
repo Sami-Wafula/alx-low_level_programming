@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
- * void print alphabet
- * lower a to z
- **/
+ * print_alphabet - print alphabet
+ *
+ * Return: void
+ */
 void print_alphabet(void)
 {
 	char x = 'a';
