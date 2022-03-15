@@ -2,9 +2,12 @@
 
 int main(void)
 {
-	for (int x = 'a'; x <='z'; x++);
+	char x = 'a';
+
+	while (x <= 'z')
 	{
-		putchar(x);
+		_putchar(x);
+		x++;
 	}
-	return 1;
+	_putchar('\n');
 }
