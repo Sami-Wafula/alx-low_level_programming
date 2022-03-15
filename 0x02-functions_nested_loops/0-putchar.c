@@ -1,9 +1,6 @@
-#include <stdio.h>
+#include <unistd.h>
 
-int main()
+int _putchar(char _putchar)
 {
-	char ch = '_putchar';
-	putchar(ch);
-
 	return (0);
 }
