@@ -2,8 +2,6 @@
 
 /**
 * main - causes an infinite loop
-* @\\o/\n: escape character
-*
 * Return: 0
 */
 
