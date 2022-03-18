@@ -1,26 +1,27 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
- * main - generates integers from 1 to 100
+ * main - Entry point
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
-	int i = 1;
+	int x = 1;
 
-	for (; 1 < 100; i++)
+	for (; x < 100 ; x++)
 	{
-		if (i % 3 == 0 && i % 5 == 0)
+		if (x % 3 == 0 && x % 5 == 0)
 			printf("FizzBuzz ");
-		else if (i % 3 == 0)
+		else if (x % 3 == 0)
 			printf("Fizz ");
-		else if (i % 5 == 0)
+		else if (x % 5 == 0)
 			printf("Buzz ");
 		else
-			printf("%d ", i);
+			printf("%d ", x);
 	}
-	printf("Buzz\n", i);
+	printf("Buzz\n");
 
 	return (0);
 }
