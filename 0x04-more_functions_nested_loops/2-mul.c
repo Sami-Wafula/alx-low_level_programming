@@ -5,11 +5,12 @@
  * @a: integer
  * @b: integer
  *
- * Return: 1
+ * Return: product(m)
  */
 
 int mul(int a, int b)
 {
-	m = a * b;
+	int m = a * b;
+
 	return (m);
 }
