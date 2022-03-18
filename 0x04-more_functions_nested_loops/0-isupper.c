@@ -11,5 +11,8 @@ int _isupper(int c)
 	{
 		return (1);
 		upper++;
+	} else
+	{
+		return (0);
 	}
 }
