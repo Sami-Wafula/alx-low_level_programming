@@ -1,15 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 
 /** 
  * main - update pointer value
- *
+ * @n: pointer
  * Result: Always 0.
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int m = 98;
-	int *p = &m;
-	printf("m=%d\n):
-	return (0);
+	*n = 98;
 }
