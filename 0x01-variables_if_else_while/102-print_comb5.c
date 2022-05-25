@@ -30,7 +30,7 @@ for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
 					putchar(' ');
 					putchar(tens2);
 					putchar(ones2);
-					if (!(ones == '8' && tens == '9'
+					if (!(ones == '9' && tens == '9'
 						    ))/*addes comma and space*/
 					{
 						putchar(',');
