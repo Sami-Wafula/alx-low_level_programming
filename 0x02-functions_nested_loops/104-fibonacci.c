@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the first 50 Fibonacci numbers, starting with 1 and 2
+ * main - prints the first 98 Fibonacci numbers, starting with 1 and 2
  * followed by a new line
  * Return: Always 0 (Success)
  */
@@ -12,19 +12,12 @@ int main(void)
 	j = 1;
 
 	k = 2;
-
-	for (i = 1; i <= 98; ++i)
+	for (i = 3; i < 100; i++)
 	{
-		if (j != 135301852344706746049)
-		{
-			printf("%ld, ", j);
-		} else
-		{
-			printf("%ld\n", j);
-		}
-		next = j + k;
+		printf("%ld\n", next);
 		j = k;
 		k = next;
+		next = j + k;
 	}
 
 	return (0);
