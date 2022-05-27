@@ -7,23 +7,22 @@
  */
 int main(void)
 {
-	unsigned long int i, j, k, next;
+	long int i, j, k, next;
 
 	j = 1;
 
 	k = 2;
 
-	printf("%lu", j);
-
-	for (i = 1; i < 100; i++)
+	printf("%ld", j);
+	printf("%ld", k);
+	for (i = 3; i < 100; i++)
 	{
-		printf(", %lu", k);
+		printf(", %ld", next);
 		next = j + k;
 		j = k;
 		k = next;
 
-			
+
 	}
-	putchar('\n');
 	return (0);
 }
