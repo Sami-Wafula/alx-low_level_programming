@@ -12,12 +12,12 @@ int main(void)
 	j = 1;
 
 	k = 2;
-	for (i = 3; i < 100; i++)
+	for (i = 0; i < 100; i++)
 	{
-		printf("%ld\n", next);
+		printf("%ld\n", j);
+		next = j + k;
 		j = k;
 		k = next;
-		next = j + k;
 	}
 
 	return (0);
