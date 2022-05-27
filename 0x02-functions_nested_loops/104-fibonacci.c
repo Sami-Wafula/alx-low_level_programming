@@ -18,6 +18,12 @@ int main(void)
 		next = j + k;
 		j = k;
 		k = next;
+
+		if (i != 99)
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 
 	return (0);
